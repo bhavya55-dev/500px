@@ -1,0 +1,139 @@
+body
+{
+  margin: 0px;
+}
+.navbar .logo{
+    width: 25px;
+    height: 27px;
+}
+.navbar .pic
+{
+  margin-top: -14px;
+  margin-bottom:5px;
+  margin-left: -15px;
+  margin-right: 0px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content 
+{
+  padding: 16px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar #left {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar #right {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar .serch{
+    margin-top: 11px;
+    margin-right: 200px;
+    border:2px solid #f7f7f7;
+    height: 5px;
+    width: 250px;
+    border-radius: 30px;
+}
+.navbar .small-profile-circle
+{
+    border:2px solid #f7f7f7;
+    margin-top: 3px;
+    margin-right: 123px;
+    margin-bottom: -18px; 
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.about
+{
+  border:2px solid #f7f7f7;
+  margin-top: -1px;
+  height: 40px;
+  color: black;
+}
+.about p
+{
+  font-size: 20px;  
+  margin-top: 6px;
+}
+.about .underline
+{
+  border:1px solid #0099e5;
+  margin-top: -11px;
+  width: 70px;
+}
+.photo
+{
+  margin-top: -1px;
+  
+  color: white;
+}
+.photo img
+{
+  width: 100%;
+  height: 800px;
+}
+.photo .text
+{
+  color: black;
+  font-size: 50px;
+  margin-top: -650px;
+}
+.photo .subtext
+{
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.lasttext
+{
+  color: black;
+  font-size: 50px;
+  margin-top:600px; 
+}
+.sublasttext
+{
+  color: black;
+  font-size: 20px;
+  margin-top:0px; 
+}
+.office
+{
+  border:1px solid #fafafa;
+  background-color: #f7f7f7;
+  height: 800px;
+  margin-top: 50px;
+}
+.office p
+{
+  margin-top: 50px;
+  font-size: 30px;
+}

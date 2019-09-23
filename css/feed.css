@@ -1,0 +1,187 @@
+body
+{
+  margin: 0px;
+}
+.navbar .logo{
+    width: 25px;
+    height: 27px;
+}
+.navbar .pic
+{
+  margin-top: -14px;
+  margin-bottom:5px;
+  margin-left: -15px;
+  margin-right: 0px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content 
+{
+  padding: 16px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar #left {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar #right {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar .serch{
+    margin-top: 11px;
+    margin-right: 200px;
+    border:2px solid #f7f7f7;
+    height: 5px;
+    width: 250px;
+    border-radius: 30px;
+}
+.navbar .small-profile-circle
+{
+    border:2px solid #f7f7f7;
+    margin-top: 3px;
+    margin-right: 123px;
+    margin-bottom: -18px; 
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.upload{
+    border:1px solid #34bf49;
+    background-color: #34bf49;
+    color: white;
+    height: 60px;
+    width: 130px;
+    margin-bottom: -30px;
+    margin-top: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar .upload .uploadtxt{
+    margin-right: -35px;
+}
+.upload.icon 
+{
+    color: white;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 30px;
+    width: 16px;
+    height: 8px;
+    border: solid 2px currentColor;   
+    border-top: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.upload.icon:before 
+{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 7px;
+    width: 2px;
+    height: 12px;
+    background-color: currentColor;
+}
+.upload.icon:after 
+{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border-top: solid 2px currentColor;
+    border-right: solid 2px currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+.post
+{
+  border:1px solid #f7f7f7;
+  background-color: #fafafa;
+  width: 1100px;
+  height: 1000px;
+}
+.post .content
+{
+  margin-top: 75px;
+  border:1px solid black;
+  width: 1000px;
+  height: 700px;
+}
+.post .content .title
+{
+  border: 1px solid black;
+  background-color: white; 
+  margin: -17px;
+  width: 1032px;
+  height: 65px;
+}
+.post .content .title .small-profile-circle
+{
+    border:1px solid black;
+    margin-top: 3px;
+    margin-right: 950px;
+    margin-bottom: -18px; 
+    height: 57px;
+    width: 57px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.post .content .title .name
+{
+  margin-right: 830px;
+  margin-left: 30px;
+  margin-top: -39px;
+  font-size: 18px;
+}
+.post .content img
+{
+ width: 1034px;
+  height: 720px;
+  margin-top: 16px;
+  margin-left: -17px;
+}
+.post .content .title .small-profile-circle img
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 57px;
+    width: 57px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.post .content .title button
+{
+  background-color: blue; 
+  margin: -17px;
+  width: 200px;
+  height: 40px;
+}

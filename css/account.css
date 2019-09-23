@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  background-color: white;
+}
+.navbar .logo{
+    width: 25px;
+    height: 27px;
+}
+.navbar .pic
+{
+  margin-top: -14px;
+  margin-bottom:5px;
+  margin-left: -15px;
+  margin-right: 0px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content 
+{
+  padding-top: 60px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar #left {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar #right {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar .serch{
+    margin-top: 11px;
+    margin-right: 200px;
+    border:2px solid #f7f7f7;
+    height: 5px;
+    width: 250px;
+    border-radius: 30px;
+}
+.navbar .small-profile-circle
+{
+    border:2px solid #f7f7f7;
+    margin-top: 3px;
+    margin-right: 123px;
+    margin-bottom: -18px; 
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.profilepic
+{
+  height:20px; 
+  width:20px;
+}
+.upload{
+    border:1px solid #34bf49;
+    background-color: #34bf49;
+    color: white;
+    height: 60px;
+    width: 130px;
+    margin-bottom: -30px;
+    margin-top: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar .upload .uploadtxt{
+    margin-right: -35px;
+}
+.upload.icon 
+{
+    color: white;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 30px;
+    width: 16px;
+    height: 8px;
+    border: solid 2px currentColor;   
+    border-top: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.upload.icon:before 
+{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 7px;
+    width: 2px;
+    height: 12px;
+    background-color: currentColor;
+}
+.upload.icon:after 
+{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border-top: solid 2px currentColor;
+    border-right: solid 2px currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+.Photos
+{
+    margin-top: 0px;
+    padding-left: 70px;
+    border:1px solid #f7f7f7;
+    background-color: #f7f8fa;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1350px;
+}
+.spacebox
+{
+    margin-top: 0px;
+    border:1px solid #f7f7f7;
+    box-sizing: border-box;
+    background-color: #f7f8fa;
+    width: 100%;
+    height: 150px;
+    border-bottom-color: rgb(238, 239, 242);
+}
+.profile-circle{
+    margin-top: -77px;
+    border:2px solid #f7f7f7;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+.profile-circle .pic
+{
+    width: 150PX;
+    height: 150PX;
+}
+.detail-name{
+    margin-top: -77px;
+    color: black;
+    border:1px solid #f7f7f7;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    border-bottom-color: rgb(238, 239, 242);
+}
+.photo-text
+{
+  border:2px solid #f7f7f7;
+  margin-top: -1px;
+  height: 40px;
+  color: black;
+}
+.photo-text p
+{
+  font-size: 20px;  
+  margin-top: 6px;
+}
+.photo-text .underline
+{
+  border:1px solid #0099e5;
+  margin-top: -10px;
+  width: 70px;
+}
+.detail-name .username
+{
+    margin-top: 96px;   
+}
+.detail-button
+{
+  margin-left: 1430px;
+  margin-top: -140px;
+}
+.detail-button .first
+{
+  padding: 5px;
+  margin-right: 27px; 
+  background-color: #f7f8fa;
+  color: #71768a;
+  border: 1px solid #d8dce0;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.detail-button .second
+{ 
+  padding: 5px;
+  background-color: #0099e5;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.detail-button .third
+{ 
+  padding: 5px;
+  background-color: #f7f8fa;
+  color: red;
+  border: 1px solid #d8dce0;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.Photos .post
+{
+  border:1px solid black;
+  margin: 25px;
+  float: left;
+  margin-left: 5px;
+  height: 400px;
+  width: 400px; 
+}
+.Photos .post .img
+{
+  height:400px; 
+  width:400px;
+}

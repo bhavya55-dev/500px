@@ -1,0 +1,171 @@
+
+.navtabs{
+margin-left: 10px !important;
+width:620px;
+  }
+.navtabs ul li a {
+font-family: "Raleway",sans-serif;
+color: black;
+padding: 14px;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus
+{
+    color: black;
+    background-color: #ffffff;
+		cursor: default;		
+		border: 1px solid #dddddd;
+		border-bottom-color: 1px solid #dddddd;
+		box-shadow: 10px 10px 5px #888888;
+} 
+
+.section{
+		width:360px;
+		height: 800px;
+		opacity: 0.9;
+		float: left;
+		margin-left: 160px;
+		z-index: 10;
+		
+		}
+		.articles {
+  margin-top: 20px;
+  margin-bottom: 20px;
+	margin-left: 50%;
+	width:600px;
+	display: inline-block;	
+	font-family: "Raleway",sans-serif;
+}
+
+.article {
+  color: #222;
+  background: rgba(255,255,255,.9);
+  border-spacing: 2px;
+  border-color: gray;
+ font-family: "Raleway",sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+	 width:580px;
+	 margin-left: 20px;
+	}
+
+.current .item {
+  background: rgba(206,220,206,.9);
+}
+
+.item {
+  cursor: pointer;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  
+}
+
+.item .source {
+  margin-left: 20px;
+}
+
+.item .title {
+  font-weight: bold;
+}
+
+.item .pubdate {
+  margin-right: 20px;
+}
+
+.item .pubdate {
+  text-align: right;  
+}
+
+.description {
+
+  padding: 10px	10px	10px	10px;
+ 	width: 340px;
+}
+
+.description h1 {
+  margin-top: 0px;
+  font-size: 23px;
+	font-family: "Raleway",sans-serif;
+}
+
+	 p {
+  margin: 0;
+	display: inline-block;
+	font-family: "Raleway",sans-serif;
+	}
+ul
+{
+    list-style-type: none;
+		font-family: "Raleway",sans-serif;
+}
+
+p img{
+border-radius: 25px;}
+
+.paysecure {
+float: right;
+}
+/* ==========================================================================
+Form Elements 
+========================================================================== */
+
+#CVV-box1, #CVV-box2{
+    display: none;
+		float: right;
+		width: 60px;
+	}
+input[type="password"], {
+    width: 60px;
+}
+#id_radio2, #id_radio2{
+display: inline-block;
+}
+
+#CardNum{
+width: 460px;
+}
+
+.nametext input[type="text"]{
+width: 180px;
+}
+input[type="text"], input[type="password"]{
+width: 60px;
+}
+
+#month, #day {
+width: 60px;
+}
+#year  {
+width: 80px;
+}
+/***FIRST STYLE THE BUTTON***/
+input#Submitbutton {
+width:140px;
+background: #3e9cbf; /*the colour of the button*/
+padding: 8px 14px 10px; /*apply some padding inside the button*/
+border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+/*style the text*/
+font-size:1em;
+font-weight: bold;
+font-family: "Raleway",sans-serif; 
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+color: #fff;
+/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+/*give the corners a small curve*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+/***SET THE BUTTON'S HOVER AND FOCUS STATES***/
+input#Submitbutton:hover, input#Submitbutton:focus {
+color:#dfe7ea;
+/*reduce the size of the shadow to give a pushed effect*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}
+ 

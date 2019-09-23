@@ -1,0 +1,46 @@
+.main
+{
+	margin-top: 60px;
+	border:1px solid #f7f7f7;
+	height: 1000px;	
+}
+.main p
+{
+	font-size: 50px;
+	margin-top: 0px;
+}
+.title
+{
+	margin-left: 12px;
+	font-size: 22px;
+}
+.title .underline
+{
+  border:1px solid #0099e5;
+  margin-top: -5px;
+  width: 60px;
+}
+.main .photos
+{
+	border:1px solid #f7f7f7;
+	height: auto;
+	margin-bottom: 50px;
+	background-color: #fafafa;
+}
+.row {
+    display: flexbox; /* IE 10 */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
