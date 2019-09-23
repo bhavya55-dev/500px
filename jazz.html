@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jazz</title>
+	<link rel="stylesheet" type="text/css" href="CSS/viewaccount.css">
+</head>
+<body>
+	<div id="navbar" class="navbar">
+		<a id="left" href="feed.php"><img class="logo" src="Photos/LOGO.png"></a>
+		<a id="left" href="discover.php">Discover</a>
+		<a id="left" href="about.php">About</a>
+		<a id="right" href="logout.php">LOG OUT</a>
+		<div id="right" class="small-profile-circle"><a  href="account.php"><img class="profilepic" src="userdata/jazz/profilepic.jpg">
+		 </a></div>
+		<div id="right" class="serch"></div>
+	</div>
+	<div class="spacebox"></div>
+	<center><div class="profile-circle"><img class="pic" src="userdata/jazz/profilepic.jpg">					 	
+	</div></center>
+	<div class="detail-name">
+		<center><p class="username">jazz</p></center>
+		
+	</div>
+	<div class="photo-text"><center><p>Photos</p><div class="underline"></div></center></div>
+	<div class="Photos">
+		<div class="post"><img class="img" src="Photos/photo-8.jpg" alt="userphotos"></div>
+		<div class="post"><img class="img" src="Photos/photo-18.jpg" alt="userphotos"></div>
+		<div class="post"><img class="img" src="Photos/photo-34.jpg" alt="userphotos"></div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>

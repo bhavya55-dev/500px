@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <title>Payment Check-Out </title>
+<!-- CSS -->
+		 <link href="css/pay.css" rel="stylesheet" media="screen">
+<!-- Google Fonts -->
+		 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+<body>
+
+<!-- Payment Section -->
+	<div class="section">
+			<div class="articles container">
+<!-- Bootstrap Centered Tabs -->
+			<div class = "navtabs">
+				<ul class="nav nav-pills" id="pills-first">
+					
+					<li class="active"><a href="Payment.html">PAYMENT CHECK-OUT</a></li>
+				
+				</ul>
+			
+	<div class="tab-content">
+    	
+    <div class="tab-pane active" id="tab_c">
+				
+<!-- Payment Accordian Start -->
+      <div class="article">
+
+<!--Pay Via Credit Card  -->
+      <div class="article">
+        <div class="item row">
+           <p class="title"><img src="./img/creditcard.png" type="" alt=""/> Credit Card</p>
+        </div>
+        <div class="description row">
+          
+<!-- Form 2  -->
+				<form name="myForm2" id="myForm" onsubmit="return validateForm2()">
+		<!-- Name on Card  -->
+							<div class="nametext">
+							<div class= "paysecure">
+							<img src="./img/secure.png"type="" alt=""/>
+							</div>
+							<br/>
+							<br/>
+							Name on Card:&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" class="nametext" id="" size="50"maxlength="25" name="cardName" />  
+							</div>
+		<!-- Select Card Type -->
+								<p> <label>Select Card Type: &nbsp                                    
+								<input type="radio" class="trigger" name="cardType" id="id_radio2" name="card" />  <img src="./img/visa.png" type="" alt=""/> 
+								
+								<input type="radio" class="trigger" name="cardType" id="id_radio2" name="card" />  <img src="./img/amex.png" type="" alt=""/>
+								
+								<input type="radio" class="trigger" name="cardType" id="id_radio2" name="card" />  <img src="./img/master.png" type="" alt=""/> </label>
+								<br/>
+		<!-- Enter Card Number -->
+								<div id="CardNum"> 
+								Enter Card Number:&nbsp  <input type="text" class="" id="" size="4"maxlength="3" name="CardNumber" />  <input type="text" class="" id="" size="4"maxlength="3" name="CardNumber1" />  <input type="text" class="" id="" size="4"maxlength="3" name="CardNumber2"  />  <input type="text" class="" id="" size="4"maxlength="4" name="CardNumber3" />
+								</div>
+		<!-- Enter Expiry Date -->
+								Card Expiry Date:&nbsp&nbsp&nbsp&nbsp
+													<select id="month" name="month">
+													<option  value="January">Jan</option>
+													<option  value="February">Feb</option>
+													<option  value="March">Mar</option>
+													<option  value="April">Apr</option>
+													<option  value="May">May</option>
+													<option  value="June">Jun</option>
+													<option  value="July">Jul</option>
+													<option  value="August">Aug</option>
+													<option  value="September">Sep</option>
+													<option  value="October">Oct</option>
+													<option  value="November">Nov</option>
+													<option  value="December">Dec</option>
+											</select> 									
+											<select id="day" name="day">
+													<option  value="1">1</option>
+													<option  value="2">2</option>
+													<option  value="3">3</option>
+													<option  value="4">4</option>
+													<option  value="5">5</option>
+													<option  value="6">6</option>
+													<option  value="7">7</option>
+													<option  value="8">8</option>
+													<option  value="9">9</option>
+													<option  value="10">10</option>
+													<option  value="11">11</option>
+													<option  value="12">12</option>
+													<option  value="13">13</option>
+													<option  value="14">14</option>
+													<option  value="15">15</option>
+													<option  value="16">16</option>
+													<option  value="17">17</option>
+													<option  value="18">18</option>
+													<option  value="19">19</option>
+													<option  value="20">20</option>
+													<option  value="21">21</option>
+													<option  value="22">22</option>
+													<option  value="23">23</option>
+													<option  value="24">24</option>
+													<option  value="25">25</option>
+													<option  value="26">26</option>
+													<option  value="27">27</option>
+													<option  value="28">28</option>
+													<option  value="29">29</option>
+													<option  value="30">30</option>
+													<option  value="31">31</option>
+											</select>									
+											<select id="year" name="year">
+													<option  value="2012">2022</option>
+													<option  value="2013">2023</option>
+													<option  value="2014">2024</option>
+													<option  value="2015">2025</option>
+													<option  value="2016">2026</option>
+													<option  value="2013">2027</option>
+													<option  value="2014">2028</option>
+													<option value="2015">2029</option>
+													<option value="2016">2030</option>
+											</select>
+		<!-- Enter CVV Number -->
+								<div id="CVV-box">  
+								CVV:&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="password" class="" id="" size="4"maxlength="3" name="CVVNumber" />&nbsp<a href="https://www.cvvnumber.com/">CVV Number?</a></label><br/> 
+								</div>
+<!-- Add Credit Card details to Saved Cards-->
+								<input type="checkbox" class="" id="" name="SavedCard" />&nbsp Save Card Details for future Transaction
+								<br/>	
+								<br/>								
+								<input type="submit" class="confirmation" id="Submitbutton" name="submit" value="Make Payment"/>
+								</p> 
+								<br/>
+					</form>
+      </div>
+			</div>
+<!-- Credit Card Close -->
+     
+			
+<!-- Debit Card-->
+      <div class="article">
+        <div class="item row">
+          <p class="title"><img src="./img/debitcard.png" alt=""/>Debit Card</p>
+        </div>
+        <div class="description row">
+<!-- Form 3  -->
+				<form name="myForm3" id="myForm" onsubmit="return validateForm3()">
+<!-- Name on Card  -->
+							<div class="nametext">
+							<div class= "paysecure">
+							<img src="./img/secure.png"type="" alt=""/>
+							</div>
+							<br/>
+							<br/>
+							Name on Card:&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" class="nametext" id="" size="50"maxlength="25" name="cardName" />  
+							</div>
+<!-- Select Card Type -->
+								<p> <label>Select Card Type: &nbsp                                    
+								<input type="radio" class="trigger" name="cardType" id="id_radio2" name="card" />  <img src="./img/visa.png" type="" alt=""/> 
+								
+								<input type="radio" class="trigger" name="cardType" id="id_radio2" name="card" />  <img src="./img/amex.png" type="" alt=""/>
+								
+								<input type="radio" class="trigger" name="cardType" id="id_radio2" name="card" />  <img src="./img/master.png" type="" alt=""/> </label>
+								<br/>
+<!-- Enter Card Number -->
+								<div id="CardNum"> 
+								Enter Card Number:&nbsp  <input type="text" class="" id="" size="4"maxlength="3" name="CardNumber" />  <input type="text" class="" id="" size="4"maxlength="3" name="CardNumber1" />  <input type="text" class="" id="" size="4"maxlength="3" name="CardNumber2"  />  <input type="text" class="" id="" size="4"maxlength="4" name="CardNumber3" />
+								</div>
+<!-- Enter Expiry Date -->
+								Card Expiry Date:&nbsp&nbsp&nbsp&nbsp
+													<select id="month" name="month">
+													<option  value="January">Jan</option>
+													<option  value="February">Feb</option>
+													<option  value="March">Mar</option>
+													<option  value="April">Apr</option>
+													<option  value="May">May</option>
+													<option  value="June">Jun</option>
+													<option  value="July">Jul</option>
+													<option  value="August">Aug</option>
+													<option  value="September">Sep</option>
+													<option  value="October">Oct</option>
+													<option  value="November">Nov</option>
+													<option  value="December">Dec</option>
+											</select> 									
+											<select id="day" name="day">
+													<option  value="1">1</option>
+													<option  value="2">2</option>
+													<option  value="3">3</option>
+													<option  value="4">4</option>
+													<option  value="5">5</option>
+													<option  value="6">6</option>
+													<option  value="7">7</option>
+													<option  value="8">8</option>
+													<option  value="9">9</option>
+													<option  value="10">10</option>
+													<option  value="11">11</option>
+													<option  value="12">12</option>
+													<option  value="13">13</option>
+													<option  value="14">14</option>
+													<option  value="15">15</option>
+													<option  value="16">16</option>
+													<option  value="17">17</option>
+													<option  value="18">18</option>
+													<option  value="19">19</option>
+													<option  value="20">20</option>
+													<option  value="21">21</option>
+													<option  value="22">22</option>
+													<option  value="23">23</option>
+													<option  value="24">24</option>
+													<option  value="25">25</option>
+													<option  value="26">26</option>
+													<option  value="27">27</option>
+													<option  value="28">28</option>
+													<option  value="29">29</option>
+													<option  value="30">30</option>
+													<option  value="31">31</option>
+											</select>									
+											<select id="year" name="year">
+													<option  value="2012">2022</option>
+													<option  value="2013">2023</option>
+													<option  value="2014">2024</option>
+													<option  value="2015">2025</option>
+													<option  value="2016">2026</option>
+													<option  value="2013">2027</option>
+													<option  value="2014">2028</option>
+													<option value="2015">2029</option>
+													<option value="2016">2030</option>
+											</select>
+<!-- Enter CVV Number -->
+								<div id="CVV-box">  
+								CVV:&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="password" class="" id="" size="4"maxlength="3" name="CVVNumber" />&nbsp<a href="https://www.cvvnumber.com/">CVV Number?</a></label><br/> 
+								</div>
+<!-- Add Credit Card details to Saved Cards-->
+								<input type="checkbox" class="" id="" name="SavedCard" />&nbsp Save Card Details for future Transaction
+								<br/>	
+								<br/>								
+								<input type="submit" class="confirmation" id="Submitbutton" name="submit" value="Make Payment"/>
+								</p> 
+								<br/>
+					</form>
+				</div>
+			</div>
+				
+		</div><!--tab C Close-->
+	
+   
+</div> <!-- tab-content Close -->
+</div><!-- Nav Tabs Close -->
+
+</div><!--Articles Container Close-->
+</div><!--Section Close-->
+
+</body>
+</html>
